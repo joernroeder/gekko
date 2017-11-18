@@ -16,6 +16,12 @@ config.debug = true;
 config.tradingAdvisor = {
 }
 
+config.stop = {
+  enabled: false,
+  loss: 0.2,
+  type: 'fixed'
+}
+
 config.candleWriter = {
   enabled: false
 }
