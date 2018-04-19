@@ -42,6 +42,11 @@ config.stop = {
   loss: 0.1
 }
 
+config.stop = {
+  enabled: true,
+  loss: 0.1
+}
+
 // Exponential Moving Averages settings:
 config.DEMA = {
   // EMA weight (α)

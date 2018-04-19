@@ -22,6 +22,12 @@ config.stop = {
   type: 'fixed'
 }
 
+config.stop = {
+  enabled: false,
+  loss: 0.2,
+  type: 'fixed'
+}
+
 config.candleWriter = {
   enabled: false
 }
